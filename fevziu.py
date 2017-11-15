@@ -29,7 +29,7 @@ async def on_message(message):
         if'mendon'in message.content:
             if'light'in message.content.lower():
                 await client.send_message(message.channel,'Light eshte shpirt njeriu')
-            elif'Pasanik'in message.content.lower():
+            elif'pasanik'in message.content.lower():
                 await client.send_message(message.channel,'Asgje')
             elif'batsy'in message.content.lower():
                 await client.send_message(message.channel,'Batsy eshte malok')
